@@ -1,0 +1,9 @@
+<launch>
+
+<node pkg="auto_exploration" type="wfd_r" name="wfd_r"/>
+<node pkg="auto_exploration" type="firefly" name="firefly"/>
+<node pkg="auto_exploration" type="filter" name="filter"/>
+<!-- 
+<node pkg="auto_exploration" type="pub_exploration" name="pub_exploration" output="screen"/>-->
+
+</launch>
